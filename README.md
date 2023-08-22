@@ -1,8 +1,8 @@
-# Desafio de Implementação - Gerador de Composite
+# Gerador de Composite - Agência de Modelos
 
 Neste desafio, a tarefa é implementar um botão chamado "Gerar Composite" que permitirá aos usuários criar um composto visual contendo a foto principal de um modelo e as informações inseridas em um formulário. O composto final será uma imagem que pode ser baixada e exibirá as informações do modelo juntamente com fotos secundárias.
 
-![Exemplo de Imagem](imgs/captura.png)
+![Esboço 01](imgs/captura.png)
 
 
 ## Instruções
