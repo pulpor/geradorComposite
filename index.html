@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Perfil</title>
+</head>
+<body>
+
+    <h1>Formulário de Perfil:</h1>
+
+    <form>
+  
+      <label for="foto_principal">Foto Principal:</label>
+      <input type="file" name="foto_principal" id="foto_principal" accept="image/*" required>
+      
+      <br>
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" required>
+      
+      <br>
+      <label for="idade">Idade:</label>
+      <input type="number" name="idade" id="idade" required>
+      
+      <br>
+      <label for="altura">Altura:</label>
+      <input type="number" step="0.01" name="altura" id="altura" required>
+      
+      <br>
+      <label for="peso">Peso:</label>
+      <input type="number" step="0.01" name="peso" id="peso" required>
+      
+      <br>
+      <label for="foto_secundaria_1">Foto Secundária 1:</label>
+      <input type="file" name="foto_secundaria_1" id="foto_secundaria_1" accept="image/*">
+      
+      <br>
+      <label for="foto_secundaria_2">Foto Secundária 2:</label>
+      <input type="file" name="foto_secundaria_2" id="foto_secundaria_2" accept="image/*">
+      
+      <br>
+      <label for="foto_secundaria_3">Foto Secundária 3:</label>
+      <input type="file" name="foto_secundaria_3" id="foto_secundaria_3" accept="image/*">
+      
+      <br>
+      <label for="foto_secundaria_4">Foto Secundária 4:</label>
+      <input type="file" name="foto_secundaria_4" id="foto_secundaria_4" accept="image/*">
+      
+      <br>
+      <button type="button" id="gerar_composite">Gerar Composite</button>
+    
+    </form>
+
+    <div id="composite_container">
+      <h2>Composite Gerado</h2>
+      <img id="composite_image" alt="Composite">
+      <a id="download_link" style="display: none;" download="composite.jpg">
+          <button id="download_button">Baixar Composite</button>
+      </a>
+  </div>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
